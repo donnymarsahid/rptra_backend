@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "volunteer_forms",
+  "info": {
+    "singularName": "volunteer-form",
+    "pluralName": "volunteer-forms",
+    "displayName": "volunteerForm"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fullname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "no_telp": {
+      "type": "string"
+    },
+    "messages": {
+      "type": "text"
+    }
+  }
+}

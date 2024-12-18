@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "donation_reports",
+  "info": {
+    "singularName": "donation-report",
+    "pluralName": "donation-reports",
+    "displayName": "donationReport"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name_pj": {
+      "type": "string"
+    },
+    "agency": {
+      "type": "string"
+    },
+    "donation_for_what": {
+      "type": "text"
+    },
+    "donation_in_what_form": {
+      "type": "text"
+    },
+    "no_telp": {
+      "type": "string"
+    }
+  }
+}

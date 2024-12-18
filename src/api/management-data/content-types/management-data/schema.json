@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "management_datas",
+  "info": {
+    "singularName": "management-data",
+    "pluralName": "management-datas",
+    "displayName": "managementData",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "division": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
