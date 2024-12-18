@@ -4,7 +4,8 @@
   "info": {
     "singularName": "donation-report",
     "pluralName": "donation-reports",
-    "displayName": "donationReport"
+    "displayName": "donationReport",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -25,6 +26,12 @@
     },
     "no_telp": {
       "type": "string"
+    },
+    "nominal": {
+      "type": "decimal"
+    },
+    "status": {
+      "type": "boolean"
     }
   }
 }
